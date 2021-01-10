@@ -1,3 +1,22 @@
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from webdriver_manager.chromdiver import ChromDriverManager
+#everything is object in python 
+#mutable and immutable
+
+num1=100
+print(type(num1)) #type is fun in python
+print('Hello')
+
+num2=10.4
+print(type(num2))
+
+flag=True
+print(type(flag))
+
+#id():it returns unique hash of the memory address ....identification of the memory location
+myname="Neha"
+print(id(myname),type(myname))
+myname2=myname
+print(id(myname2))
+print(myname,myname2)
+myname="karthik"
+print(id(myname),id(myname2))
+print(myname,myname2)
